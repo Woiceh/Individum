@@ -1,0 +1,293 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+    font-family: 'Playfair Display', serif;
+}
+
+/* ХЭДЕР И ПЕРВАЯ СЕКЦИЯ */
+
+.upper-section{
+    background: url(../img/mayak.png) center no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding-top: 40px;
+}
+ a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 50px; 
+    color: #FFFF;
+    transition: 500ms;
+}
+.line{
+    background: #FFFF;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 10px;
+}
+header nav a:hover{
+    color: #DD9428;
+}
+.first .wrapper{
+    display: block;
+}
+.first{
+padding-top: 150px;
+padding-bottom: 100px;
+}
+.first h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFF;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.opisanie{
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFF;
+    width: 30%;
+    margin-bottom: 70px;
+    line-height: 45px;
+}
+.top-content{
+    display: flex;
+    align-items: center;
+}
+.top-content .btn{
+    background-color: #DD9428;
+    color: #331111;
+    border-radius: 38px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 80px;
+    margin-right: 60px;
+    transition: 300ms;
+}
+.top-content .btn:hover{
+    background-color: white;
+    border: 2px solid #DD9428;
+    color: #DD9428;
+    cursor: pointer;
+}
+.video{
+    color: #A1A8B6;
+    width: 8%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 20px;
+}
+.seti{
+    margin-top: 120px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ПЕРВАЯ КАРТОЧКА */
+
+.wrapper2{
+    width: 73%;
+    margin: 160px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.card{
+    position: relative;
+}
+.card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-upper-content{
+    padding: 40px 60px;
+}
+.card .content .first-card-text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFF;
+}
+.card .content .second-card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.card-lower-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    width: 86%;
+}
+.card-lower-content p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    color: white;
+    width: 26%;
+}
+.check-tour{
+    margin-left: 100px;
+}
+.check-tour .btn{
+    margin-top: 50px;
+    border: 2px solid #DD9428;
+    background-color: white;
+    color: #DD9428;
+    border-radius: 38px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 65px;
+    transition: 300ms;
+}
+.check-tour .btn:hover{
+    background-color: #DD9428;
+    color: #331111;
+    cursor: pointer;
+}
+.check-tour h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.check-tour p{
+    width: 74%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+/* МУЖИЧОК В ОЧКАХ */
+
+.lower-section{
+    background: url(../img/man.png) center no-repeat;
+    background-size: cover;
+}
+.lower-section-content{
+    display: flex;
+    padding-top: 133px;
+    padding-bottom: 52px;
+    justify-content: flex-end;
+}
+.lower-section-text{
+    width: 25%;
+    margin-right: 84px;
+}
+.lower-section-text h1{
+    font-size: 42px;
+    font-weight: 700;
+    width: 150%;
+}
+.lower-section-text p{
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form .typetext{
+    font-family: 'Montserrat';
+     border: 2px solid #CED8DF;
+     border-radius: 38px;
+     font-size: 20px;
+     font-weight: 500;
+     padding: 25px 20px;
+     margin-bottom: 20px;
+}
+.form .typetext::placeholder{
+    color: #B7C3CC;
+}
+.form .btn{
+    background-color: #DD9428;
+    color: #331111;
+    border-radius: 38px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 26px 54px;
+    transition: 300ms;
+}
+.form .btn:hover{
+    border: 2px solid #DD9428;
+    background-color: white;
+    color: #DD9428;
+    cursor: pointer;
+}
+.form p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+    width: 50%;
+    margin-top: 10px;
+}
+.form a{
+    color: #DD9428;
+}
+
+/* УЛЬТРАЛОВЕР */
+
+.ultralower-section .wrapper2{
+    width: 80%;
+}
+.ultralower-section h2{
+    width: 85%;
+}
+.ultralower-section .card-lower-content p{
+    width: 45%;
+}
+
+/* ФУТЕРЫЧ */
+
+footer{
+    background-color:#F8F8F8;
+    padding: 70px 0;
+}
+footer nav{
+    display: flex;
+}
+footer nav a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#90A4B2;
+    width: 30%;
+    margin-right: 90px;
+    transition: 0.4s;
+}
+footer nav a:last-child{
+    margin: 0;
+}
+.svg-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.svg-footer svg{
+    margin-right: 123px;
+}
